@@ -6,6 +6,7 @@ var app = express();
 var port = process.env.PORT || 8080;
 
 var io = require('socket.io').listen(app.listen(port));
+io.set('log level',0);
 
 app.set('view engine', 'html');
 app.engine('html', require('ejs').renderFile);

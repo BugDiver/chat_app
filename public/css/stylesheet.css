@@ -18,92 +18,12 @@ body {
 }
 
 
-
-
-/* ------------ Header styles ------------ */
-
-
-
-/* ------ Home ------ */
-
-
-.homebanner {
-	height: 120px;
-	background-color: #3c4446;
-}
-
-.homebannertext {
-	text-align:center;
-	padding-top: 35px;
-	font-family: 'Open Sans Condensed',serif;
-	font-weight: bold;
-	color:white;
-}
-.homebannertext span {
-	color: #d6441b;
-}
-
-#logo {
-	text-decoration: none;
-	color:white;
-}
-#logo:visited {
-	color: white;
-}
-
-
-
-/* ------ Invite ------ */
-
-
-.banner {
-	height: 70px;
-	background-color: #3c4446;
-	margin-bottom: 200px;
-}
-
-.bannertext {
-	text-align:center;
-	padding-top: 15px;
-	font-family: 'Open Sans Condensed',serif;
-	font-weight: bold;
-	color:white;
-	font-size:25px;
-}
-.bannertext span {
-	color: #d6441b;
-}
-
-
-
-
-/* ------------ Section styles ------------ */
-
-
-
 /* ------ Home ------ */
 
 
 .homesection {
 	text-align:center;
 	margin-top:140px;
-}
-
-.node {
-	padding-top: 20px;
-	text-align:center;
-	margin-bottom:120px;
-}
-.node #chat {
-	font-family: 'Open Sans Condensed';
-	font-weight: normal;
-	color: #707368;
-}
-
-#nodelogo {
-	width: 410px;
-	height: 110px;
-	margin-bottom: 35px;
 }
 
 #create {
@@ -126,25 +46,10 @@ body {
 #createbutton {
 	padding-top: 28px;
 }
-#little {
-	font-weight: normal;
-	font-size: 13px;
-}
 #big {
 	font-weight: bold;
 	font-size: 23px;
 }
-.tutorial{
-	margin-bottom:90px;
-}
-#tutorial {
-	color: #88bfd4;
-}
-#tutorial:visited {
-	color: #88bfd4;
-}
-
-
 
 /* ------ Connected ------*/
 
