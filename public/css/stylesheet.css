@@ -356,25 +356,6 @@ body {
 
 
 /* ------ Chat Screen ------ */
-
-
-
-.image {
-	clear:both;
-	float:left;
-	height: 160px;
-	width: 80px;
-	text-align:center;
-	overflow: hidden;
-}
-
-.image img {
-	float: left;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-}
-
 .body {
 	text-align:center;
 	width: 40%;
@@ -387,6 +368,7 @@ body {
 .chats {
 	list-style-type: none;
 	margin-top:10px;
+	font-size: 20px;
 }
 
 .me {
@@ -399,10 +381,6 @@ body {
 	clear:both;
 	float:right;
 	margin-bottom:10px;
-}
-
-.you .image{
-	float:right;
 }
 
 .chats .me p {
@@ -439,6 +417,7 @@ body {
 	color: #637277;
 	line-height: 1.4;
 	word-wrap: break-word;
+	font-size: 20px;
 }
 
 .image b {

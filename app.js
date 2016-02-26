@@ -5,7 +5,7 @@ var app = express();
 
 var port = process.env.PORT || 8080;
 
-var io = require('socket.io').listen(app.listen(port));
+var io = require('socket.io').listen(app.listen(port) ,{log : false});
 io.set('log level',0);
 
 app.set('view engine', 'html');
@@ -19,9 +19,5 @@ app.use(require('express-session')({ secret: 'keyboard cat', resave: true, saveU
 
 app.use(passport.initialize());
 app.use(passport.session());
-
-
-
-
 
 require('./lib/routes')(app, io ,passport ,Strategy);
